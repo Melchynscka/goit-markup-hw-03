@@ -1,0 +1,175 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+ a {
+   text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #2E2F42;
+} 
+ ul {
+	list-style-type: none;
+}
+
+/* Heder */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17 ;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);;
+}
+
+.accent {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17 ; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.navigation-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+}
+ 
+.navigation-link:hover {
+    color: #404BBF;
+}
+
+.navigation-link:focus {
+    color: #404bbf ;
+}
+.address-link {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    font-style: normal;
+
+}
+
+.address-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-item:hover {
+     color: #404bbf;
+}
+.address-item:focus {
+    color: #404bbf;
+}
+
+
+/* Section-title*/
+.title {
+     background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+ .button-title {
+    cursor:pointer;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--IRIS, #4D5AE5);
+    
+}
+.button-title:hover {
+    background-color: #404BBF;
+}
+.button-title:focus {
+    background-color: #404BBF;
+}
+
+
+/* Section-advantages */
+.advantages-list {
+    background-color: #FFF;
+}
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.advantages-description {
+    
+}
+
+/* Section-team */
+.team-list {
+    background-color: #F4F4FD;
+}
+.applications-list {
+    background-color: #FFFFFF;
+}
+.team-title {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* Section-portfolio */
+.portfolio-title {
+    background-color: #FFF;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.applications {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.applications-content {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Footer */
+.basement {
+    background-color:  #2e2f42;
+}
+.description-footer {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+.accent-two {
+    color: #F4F4FD;
+}
