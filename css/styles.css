@@ -42,15 +42,15 @@ img {
     padding: 0 15px; 
     margin: 0 auto;  
     }
-.hidden {
-        position:absolute;
-        left:-10000px;
-        top:auto;
-        width:1px;
-        height:1px;
-        overflow:hidden;    
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;  
 }
-
+        
 /* Heder */
 .header-content {
     border-bottom: 1px solid #e7e9fc;
