@@ -30,7 +30,6 @@ p {
 }
 img {
     box-sizing: border-box;
-    margin-bottom: 32px;
 }
 
 .section {
@@ -115,7 +114,8 @@ img {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
-    padding: 24px 0
+    padding: 24px 0;
+    display: block;
 
 }
  
@@ -139,16 +139,22 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px ;
+    font-style: normal;
+    padding: 24px 0;
 }
-
+address {
+    display: block;
+}
 .address-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block;
+
 }
 .address-item:hover {
-     color: #404bbf;
+color: #404bbf;
 }
 .address-item:focus {
     color: #404bbf;
@@ -177,6 +183,8 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
  
 }
 
@@ -194,6 +202,8 @@ img {
     background-color: #4d5ae5;
     border-radius: 4px;
     margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button-title:hover {
     background-color: #404BBF;
@@ -220,7 +230,6 @@ img {
     justify-content: center;
     flex-wrap: nowrap;
     gap: 24px;
-    padding-bottom: 120px;
     list-style: none;
 }
 .advantages-card {
@@ -244,12 +253,6 @@ img {
 .applications-card {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    display: inline-flex;
-    padding-bottom: 32px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
     background-color: #FFFFFF;
 }
 .team-title {
@@ -259,13 +262,11 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .applications-blok {
     display: flex;
     justify-content: center;
-    padding-bottom: 120px;
     gap: 24px;
 }
 .applications-inblok {
@@ -275,7 +276,6 @@ img {
     justify-content: center;
     align-items: center;
     gap: 8px;
-    margin-bottom: 32px;
     padding: 32px 0;
 }
 .applications-list {
@@ -291,7 +291,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center; 
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 .applications-content {
     letter-spacing: 0.02em;
@@ -313,7 +313,6 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 8px;
     column-gap: 24px;
     row-gap: 48px;
 }
@@ -322,9 +321,9 @@ img {
     flex-direction: column;
     justify-content: center; 
     padding: 32px 16px ;
-    border: 1px solid #e7e9fc;
+
     border-top: none;
-    
+
 }
 
 .portfolio-blok {
@@ -333,13 +332,12 @@ img {
     justify-content: center;
 }
 .card-set {
-    display: flex;
-    padding-bottom: 32px;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
     flex-shrink: 0;
     width: calc((100% - 48px) / 3);
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
 
 }
 .subtitle {
@@ -383,10 +381,3 @@ img {
 
 
 
-.card-set {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    padding: 0;
-    list-style: none;
-}
